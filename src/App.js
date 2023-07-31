@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { calculateTotals, getCartItems } from './features/Cart/cartSlice';
+import { calculateTotals, getCartItems } from './features/cart/cartSlice';
 import CartContainer from "./Components/CartContainer";
 import Navbar from "./Components/Navbar";
 import { useEffect } from 'react';
